@@ -45,7 +45,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> nums[i];
     }
-
     Solution sol;
     vector<vector<int>> ans = sol.threeSum(nums);
 
